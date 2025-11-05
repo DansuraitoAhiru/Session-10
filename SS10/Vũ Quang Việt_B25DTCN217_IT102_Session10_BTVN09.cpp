@@ -30,7 +30,7 @@ int main() {
            printf("Gia cua san pham voi ma ID %d la: %d", id[i], price[i]);
         }
 
-    for (int i = 0; i < n - 1; i++) {
+    for (i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - 1 - i; j++) {
             if (price[j] > price[j + 1]) {
                 int temp = price[j];
@@ -49,3 +49,4 @@ int main() {
         printf("%d ", price[i]);
     }
 }
+
